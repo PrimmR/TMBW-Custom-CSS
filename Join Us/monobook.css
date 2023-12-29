@@ -1,0 +1,83 @@
+/* All pages */
+body {
+    height: 100%;
+
+    font-family: "Helvetica Neue", HelveticaNeue, Helvetica;
+    font-size: xx-small;
+
+    background-image: linear-gradient(#ffffff 20%, #fa96f0);
+}
+
+.mw-wiki-logo {
+    background-image: url(/wiki/images/thumb/f/fe/Join_Us.png/240px-Join_Us.png);
+    background-size: contain;
+}
+
+/* Strikethrough */
+p::first-line {
+    text-decoration: line-through;
+}
+
+/* Homepage */
+div#homepage .firstblock {
+    background-color: #fff2fb;
+}
+
+div#homepage .secondblock {
+    background-color: #fff9fd;
+}
+
+div#homepage .recentnewsblock {
+    background-color: #fff2fb;
+    background-blend-mode: luminosity;
+}
+
+div#homepage .gettingstartedblock {
+    background-color: #fde9f8;
+}
+
+div#homepage .bottomblock {
+    background-color: #fde8f7;
+    background-blend-mode: luminosity;
+}
+
+.otherlinksbox {
+    border: 1px solid #ffc6dc;
+    background-color: #fff2fb;
+}
+
+.ratingbox {
+    border: 1px solid #ddbe81;
+    background-color: #fff5e0;
+}
+
+.centerblock {
+    border: 1px solid #ffc6dc;
+    background-color: #fff2fb;
+}
+
+/* Tables */
+table.rowcoloring tr:nth-child(even) {
+    background: #fff2fb;
+}
+
+table.ebena tr:nth-child(even) {
+    background: #fff2fb;
+}
+
+table#discog tr:nth-child(even) {
+    background: #ffbff4;
+}
+
+.skin-azure table.rowcoloring tr:nth-child(even) {
+    background: #ffbff4;
+}
+
+.header {
+    background: #efabe4 !important;
+}
+
+/* Lyrics */
+.lyrics-table {
+    background-image: linear-gradient(90deg, #fff -10%, #fa96f0 150%);
+}
