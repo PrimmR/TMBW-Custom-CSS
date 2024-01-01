@@ -1,0 +1,28 @@
+/* All pages */
+body {
+    background: #f8b713 url(https://tmbw.net/wiki//skins/choppingblock/title.gif?2015-05-25T14:45:00Z) 16em 25px no-repeat
+}
+
+pre {
+    border: 1px solid #efab22;
+    background: #fed03f;
+}
+
+/* Homepage */
+#p-cactions {
+    background: #f8b713;
+}
+
+#williamallenwhite a,
+#williamallenwhite a:hover {
+    background: url(https://tmbw.net/wiki/images/thumb/5/5c/No.jpg/240px-No.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.MainPageBG {
+    background-color: #fed03f !important;
+}
+
+.MainPageBG2 {
+    background-color: #f2aa10 !important;
+}
