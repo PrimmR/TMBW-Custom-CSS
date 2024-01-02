@@ -1,0 +1,22 @@
+/* All pages */
+#header {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/Header.png) no-repeat bottom;
+    background-size: contain !important;
+    /* Hardcoded from surrounding elements + aspect ratio */
+    height: calc((94vw - 275px) / (1600/300));
+}
+
+@media (max-width: 767px) {
+    #header {
+        height: 0;
+        padding-bottom: calc(100vw / (1600/300) + 40px);
+    }
+}
+
+#subtitle {
+    display: none;
+}
+
+#container {
+    background: #5c9970;
+}
