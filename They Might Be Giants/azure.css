@@ -18,5 +18,36 @@
 }
 
 #container {
-    background: #5c9970;
+    background: #6caf82;
+}
+
+a {
+    color: #2f4d39;
+}
+
+#content .plainlinks a {
+    color: #2f4d39 !important;
+}
+
+#content a.external, #content a[href^="gopher://"] {
+    color: #3d663b;
+}
+
+/* Homepage */
+div#homepage .gettingstartedblock {
+    background: #feec00;
+    border: double 5px #abd1eb;
+    border-radius: 8px;
+}
+
+.MainPageBG2 {
+    background-color: #a6a2c7;
+    background-blend-mode: luminosity;
+    border: double 5px #abd1eb !important;
+    border-radius: 8px;
+}
+
+div#homepage span.tagline {
+    background: #e5b6c3;
+    color: #000;
 }
