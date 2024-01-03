@@ -29,8 +29,72 @@ a {
     color: #2f4d39 !important;
 }
 
-#content a.external, #content a[href^="gopher://"] {
+#content a.external,
+#content a[href^="gopher://"] {
     color: #3d663b;
+}
+
+body {
+    backdrop-filter: hue-rotate(-32deg);
+}
+
+/* Personal tools */
+div#personaltools {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/PersonalTools.png) no-repeat left bottom;
+}
+
+div#personaltools span#personaltoolstitle {
+    color: #ff99b6;
+}
+
+div#personaltools span#personaltoolstitle:hover {
+    color: #eeb7c3;
+}
+
+div#personaltools ul a {
+    color: #eeb7c3;
+}
+
+div#personaltools ul a:hover {
+    background: #ff99b6;
+    color: #db536f;
+}
+
+/* Sidebar L */
+#lefttabs ul,
+#p-search #searchBody {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/SidebarL.png) top left;
+}
+
+.ulfooter {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/SidebarL.png) bottom left;
+}
+
+#lefttabs li a {
+    color: #994989;
+}
+
+#lefttabs a:hover {
+    color: #401e39;
+}
+
+/* Sidebar R */
+#p-cactions li.selected a {
+    background-color: #994989 !important;
+    color: #ff99b6;
+}
+
+#p-cactions li a {
+    background-color: #ff99b6;
+    color: #994989;
+}
+
+#p-cactions li a:hover {
+    background-color: #db536f;
+}
+
+#searchInput {
+    background-color: #e5b6c3;
 }
 
 /* Homepage */
