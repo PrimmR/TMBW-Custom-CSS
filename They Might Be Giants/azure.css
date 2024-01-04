@@ -18,24 +18,99 @@
 }
 
 #container {
-    background: #6caf82;
+    background: #7acc95;
 }
 
 a {
-    color: #2f4d39;
+    color: #223829;
 }
 
 #content .plainlinks a {
-    color: #2f4d39 !important;
+    color: #223829 !important;
 }
 
 #content a.external,
 #content a[href^="gopher://"] {
-    color: #3d663b;
+    color: #0d402f;
 }
 
 body {
     backdrop-filter: hue-rotate(-32deg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #126296;
+}
+
+hr {
+    color: #126296;
+    border: #126296 1px solid;
+}
+
+/* Song pages */
+.song-tabs ul {
+    background: #caadd9;
+}
+
+.song-tabs ul:before,
+.song-tabs ul:after {
+    background: #caadd9;
+}
+
+.song-tabs a {
+    background: #caadd9;
+    color: #7d4599;
+}
+
+.song-tabs a:hover {
+    background: #b399bf;
+}
+
+.song-tabs strong {
+    color: #caadd9;
+    background: #7d4599;
+}
+
+.song-tabs a.new {
+    background: #ffd5ac;
+    color: #7d4599;
+}
+
+.song-tabs a.new:hover {
+    background: #ffb872;
+}
+
+.ratingbox {
+    background-color: #a6a2c7 !important;
+    border: double 5px #abd1eb;
+    border-radius: 8px;
+}
+
+.otherlinksbox {
+    background-color: #feec00 !important;
+    border: double 5px #abd1eb;
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+    .ratingbox {
+        border: double 5px #abd1eb !important;
+    }
+
+    .otherlinksbox {
+        border: double 5px #abd1eb !important;
+    }
+}
+
+/* Lyrics */
+.lyrics-table {
+    background: #86b1d5;
+    border: double 5px #5083b7;
+    border-radius: 8px
 }
 
 /* Personal tools */
@@ -44,20 +119,53 @@ div#personaltools {
 }
 
 div#personaltools span#personaltoolstitle {
-    color: #ff99b6;
+    color: #eeb7c3;
 }
 
 div#personaltools span#personaltoolstitle:hover {
-    color: #eeb7c3;
+    color: #ffccd7;
 }
 
 div#personaltools ul a {
-    color: #eeb7c3;
+    color: #ffccd7;
 }
 
 div#personaltools ul a:hover {
-    background: #ff99b6;
+    background: #eeb7c3;
     color: #db536f;
+}
+
+/* Navigation & Page tools (mobile) */
+@media (max-width: 767px) {
+
+    div#personaltools span#personaltoolstitle,
+    #pagetools-title,
+    #sitenav-title {
+        color: #eeb7c3;
+    }
+
+    #pagetools-title:hover,
+    #sitenav-title:hover {
+        color: #ffccd7;
+    }
+
+    #pagetools-title {
+        border-left: 1px solid #eeb7c3;
+        border-right: 1px solid #eeb7c3;
+    }
+
+    #p-cactions,
+    #lefttabs,
+    div#personaltools {
+        background: #994989;
+    }
+
+    .sitenav-open #lefttabs #sitenav-title,
+    .pagetools-open #p-cactions #pagetools-title,
+    .personaltools-open div#personaltools span#personaltoolstitle {
+        background: #db536f;
+        color: #ffccd7;
+    }
 }
 
 /* Sidebar L */
@@ -78,14 +186,18 @@ div#personaltools ul a:hover {
     color: #401e39;
 }
 
+#searchInput {
+    background-color: #e5b6c3;
+}
+
 /* Sidebar R */
 #p-cactions li.selected a {
     background-color: #994989 !important;
-    color: #ff99b6;
+    color: #eeb7c3;
 }
 
 #p-cactions li a {
-    background-color: #ff99b6;
+    background-color: #eeb7c3;
     color: #994989;
 }
 
@@ -93,8 +205,30 @@ div#personaltools ul a:hover {
     background-color: #db536f;
 }
 
-#searchInput {
-    background-color: #e5b6c3;
+#p-cactions li.new a {
+    background-color: #ffd5ac;
+    color: #994989;
+}
+
+#p-cactions li.new a:hover {
+    background-color: #ffb872;
+}
+
+/* (mobile) */
+@media (max-width: 767px) {
+    #lefttabs li a {
+        background-color: #eeb7c3;
+    }
+
+    #lefttabs li a:hover {
+        background-color: #db536f;
+        color: #994989;
+    }
+
+    #p-search input#searchInput {
+        background-color: #e5b6c3;
+        color: #994989;
+    }
 }
 
 /* Homepage */
