@@ -55,16 +55,8 @@ hr {
     border: #126296 1px solid;
 }
 
-table.ebena td+td,
-table.ebena th+th,
-table.mw_metadata td+td,
-table.mw_metadata th+th {
-    border-left: 1px solid #629a67;
-}
-
-table.ebena tr+tr,
-table.mw_metadata tr+tr {
-    border-top: 1px solid #629a67;
+.mw-editsection>a {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/Edit.gif) no-repeat top;
 }
 
 /* Song pages */
@@ -307,4 +299,16 @@ table#discog tr:nth-child(even) {
 
 .skin-azure table.rowcoloring tr:nth-child(even) {
     background: #629a67;
+}
+
+table.ebena td+td,
+table.ebena th+th,
+table.mw_metadata td+td,
+table.mw_metadata th+th {
+    border-left: 1px solid #629a67;
+}
+
+table.ebena tr+tr,
+table.mw_metadata tr+tr {
+    border-top: 1px solid #629a67;
 }
