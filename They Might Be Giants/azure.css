@@ -136,7 +136,8 @@ pre,
     border-radius: 8px
 }
 
-.skin-azure .mw-ui-button.mw-ui-progressive, .skin-azure .mw-ui-button.mw-ui-primary {
+.skin-azure .mw-ui-button.mw-ui-progressive,
+.skin-azure .mw-ui-button.mw-ui-primary {
     background: #5083b7 !important;
 }
 
@@ -284,6 +285,14 @@ div#homepage span.tagline {
     color: #ea5726 !important;
 }
 
+#userboxes,
+.prettyblock {
+    background: #86b1d5;
+    border: double 5px #5083b7 !important;
+    border-radius: 8px
+}
+
+/* Tables */
 table.rowcoloring tr:nth-child(even) {
     background: #629a67;
 }

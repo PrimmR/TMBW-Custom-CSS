@@ -8,6 +8,10 @@ pre {
     background: #fed03f;
 }
 
+#toc {
+    background: #fed03f !important;
+}
+
 /* Homepage */
 #p-cactions {
     background: #f8b713;
@@ -31,4 +35,21 @@ pre {
 #catlinks {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/No!/media/Clock.png) no-repeat left center;
     padding: 5px 5px 5px 45px;
+}
+
+/* Tables */
+table.rowcoloring tr:nth-child(even) {
+    background: #fed03f;
+}
+
+table.ebena tr:nth-child(even) {
+    background: #fed03f;
+}
+
+table#discog tr:nth-child(even) {
+    background: #fed03f;
+}
+
+.skin-azure table.rowcoloring tr:nth-child(even) {
+    background: #fed03f;
 }
