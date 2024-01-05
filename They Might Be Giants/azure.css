@@ -35,7 +35,7 @@ a {
 }
 
 body {
-    backdrop-filter: hue-rotate(-32deg);
+    background: #9adec5 url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/media/BG.svg) no-repeat center 40% fixed;
 }
 
 h1,
