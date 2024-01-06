@@ -53,3 +53,7 @@ table#discog tr:nth-child(even) {
 .skin-azure table.rowcoloring tr:nth-child(even) {
     background: #fed03f;
 }
+
+tr.header, td.diff-otitle, td.diff-ntitle {
+    background: #f2aa10;
+}

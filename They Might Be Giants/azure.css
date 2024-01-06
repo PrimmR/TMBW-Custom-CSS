@@ -301,6 +301,10 @@ table#discog tr:nth-child(even) {
     background: #629a67;
 }
 
+.row1:nth-child(2n+1), .row2:nth-child(2n+1) {
+    background: #9adec5;
+}
+
 table.ebena td+td,
 table.ebena th+th,
 table.mw_metadata td+td,
