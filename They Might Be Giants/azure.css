@@ -25,6 +25,10 @@ a {
     color: #223829;
 }
 
+a:visited {
+    color: #3f1296;
+}
+
 a.new {
     color: #ea5726;
 }
