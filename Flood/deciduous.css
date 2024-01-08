@@ -1,0 +1,68 @@
+/* All pages */
+#container {
+    background: #e4fae4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #345229;
+}
+
+hr {
+    border-color: #345229;
+}
+
+a,
+a:visited,
+#content .plainlinks a {
+    color: #476b31 !important;
+}
+
+/* Homepage */
+div#homepage span.tagline {
+    color: #ffffff;
+}
+
+.hilighted,
+.tagline {
+    background: #568853 !important;
+    text-shadow: #568853 1px 1px !important;
+}
+
+#table-songnavstub td,
+#navstub,
+.centerblock,
+.lyrics-table,
+.gettingstartedblock,
+table.gallery td,
+pre,
+.diff-context {
+    background: #97c790 !important;
+    border-color: #e4fae4 !important;
+}
+
+/* Song pages */
+.song-tabs ul {
+    background: #a0b67d;
+}
+
+.song-tabs ul:before,
+.song-tabs ul:after {
+    background: #a0b67d;
+}
+
+.song-tabs a {
+    background: #a0b67d;
+}
+
+.song-tabs a:hover {
+    background: #ccd7c4;
+}
+
+.song-tabs strong {
+    background: #476b31;
+    color: #a0b67d;
+}
