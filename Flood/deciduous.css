@@ -1,4 +1,10 @@
 /* All pages */
+body {
+    background-size: auto !important;
+    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/BG.png);
+    background-color: #def4da;
+}
+
 #container {
     background: #e4fae4;
 }
@@ -19,6 +25,14 @@ a,
 a:visited,
 #content .plainlinks a {
     color: #476b31 !important;
+}
+
+#header {
+    background-color:#4f683e ;
+}
+
+#subtitle {
+    background: #cfdeb5 url(https://tmbw.net/wiki/skins/deciduous/_img/subtitle.gif) no-repeat left bottom;
 }
 
 /* Homepage */
