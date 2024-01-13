@@ -104,12 +104,12 @@ pre,
 }
 
 .song-tabs a.new {
-    background: #483161;
+    background: #e6c72e;
     color: #cc2929 !important;
 }
 
 .song-tabs a.new:hover {
-    background: #6f6080;
+    background: #fad001;
 }
 
 /* Sidebar R */
@@ -128,10 +128,10 @@ pre,
 }
 
 #p-cactions li.new a {
-    background-color: #483161;
+    background-color: #e6c72e;
     color: #cc2929 !important;
 }
 
 #p-cactions li.new a:hover {
-    background-color: #6f6080;
+    background-color: #fad001;
 }
