@@ -160,7 +160,6 @@ div#personaltools ul a:hover {
 }
 
 
-
 /* Navigation & Page tools (mobile) */
 @media (max-width: 767px) {
 
@@ -216,6 +215,23 @@ div#personaltools ul a:hover {
     background-color: #e5b6c3;
 }
 
+/* (mobile) */
+@media (max-width: 767px) {
+    #lefttabs li a {
+        background-color: #eeb7c3;
+    }
+
+    #lefttabs li a:hover {
+        background-color: #db536f;
+        color: #994989;
+    }
+
+    #p-search input#searchInput {
+        background-color: #e5b6c3;
+        color: #994989;
+    }
+}
+
 /* Sidebar R */
 #p-cactions li.selected a {
     background-color: #994989 !important;
@@ -238,23 +254,6 @@ div#personaltools ul a:hover {
 
 #p-cactions li.new a:hover {
     background-color: #ffb872;
-}
-
-/* (mobile) */
-@media (max-width: 767px) {
-    #lefttabs li a {
-        background-color: #eeb7c3;
-    }
-
-    #lefttabs li a:hover {
-        background-color: #db536f;
-        color: #994989;
-    }
-
-    #p-search input#searchInput {
-        background-color: #e5b6c3;
-        color: #994989;
-    }
 }
 
 /* Homepage */

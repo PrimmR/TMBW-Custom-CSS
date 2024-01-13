@@ -1,7 +1,7 @@
 /* All pages */
 body {
     background-size: auto !important;
-    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/BG.png);
+    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/BG.png);
     background-color: #def4da;
 }
 
@@ -33,6 +33,28 @@ a:visited,
 
 #subtitle {
     background: #cfdeb5 url(https://tmbw.net/wiki/skins/deciduous/_img/subtitle.gif) no-repeat left bottom;
+}
+
+/* Personal tools */
+div#personaltools {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/PersonalTools.png) no-repeat left bottom;
+}
+
+div#personaltools span#personaltoolstitle {
+    color: #b1c58f;
+}
+
+div#personaltools span#personaltoolstitle:hover {
+    color: #cfdeb5;
+}
+
+div#personaltools ul a {
+    color: #cfdeb5;
+}
+
+div#personaltools ul a:hover {
+    background: #cfdeb5;
+    color: #3c502b;
 }
 
 /* Homepage */
@@ -79,4 +101,37 @@ pre,
 .song-tabs strong {
     background: #476b31;
     color: #a0b67d;
+}
+
+.song-tabs a.new {
+    background: #483161;
+    color: #cc2929 !important;
+}
+
+.song-tabs a.new:hover {
+    background: #6f6080;
+}
+
+/* Sidebar R */
+#p-cactions li.selected a {
+    background-color: #3c502b !important;
+    color: #cfdeb5;
+}
+
+#p-cactions li a {
+    background-color: #cfdeb5;
+    color: #3c502b;
+}
+
+#p-cactions li a:hover {
+    background-color: #b3c09c;
+}
+
+#p-cactions li.new a {
+    background-color: #483161;
+    color: #cc2929 !important;
+}
+
+#p-cactions li.new a:hover {
+    background-color: #6f6080;
 }
