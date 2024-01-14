@@ -35,6 +35,10 @@ a:visited,
     background: #cfdeb5 url(https://tmbw.net/wiki/skins/deciduous/_img/subtitle.gif) no-repeat left bottom;
 }
 
+.mw-editsection>a {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/Edit.gif) no-repeat top;
+}
+
 /* Personal tools */
 div#personaltools {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/PersonalTools.png) no-repeat left bottom;
