@@ -28,7 +28,7 @@ a:visited,
 }
 
 #header {
-    background-color:#4f683e ;
+    background-color: #4f683e;
 }
 
 #subtitle {
@@ -112,6 +112,28 @@ pre,
     background: #fad001;
 }
 
+/* Sidebar L */
+#lefttabs ul,
+#p-search #searchBody {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) top left;
+}
+
+.ulfooter {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) bottom left;
+}
+
+#lefttabs li a:hover {
+    color: #23341d !important;
+}
+
+#lefttabs li a {
+    color: #4f683e !important;
+}
+
+#searchInput {
+    background-color: #e4fae4;
+}
+
 /* Sidebar R */
 #p-cactions li.selected a {
     background-color: #3c502b !important;
@@ -134,4 +156,14 @@ pre,
 
 #p-cactions li.new a:hover {
     background-color: #fad001;
+}
+
+
+@media (max-width: 767px) {
+
+    #p-cactions li.selected a,
+    #p-cactions li a:hover {
+        background-color: #cfdeb5 !important;
+        color: #3c502b !important;
+    }
 }
