@@ -1,6 +1,12 @@
 body {
-    background: #000 url(https://tmbw.net/wiki//skins/blanko/logo.gif?2015-05-25T14:45:00Z) 10px 10px no-repeat;
+    background: #000 url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Logo.png) 10px 10px no-repeat;
     color: #fff;
+}
+
+#tmbwlogo a,
+#tmbwlogo a:hover {
+    height: 200px;
+    width: 210px;
 }
 
 a {
@@ -22,11 +28,11 @@ hr {
     color: #fff !important;
 }
 
-#p-cactions li a {
+#p-cactions {
     left: 210px;
-    color: #fff;
 }
 
+#p-cactions li a,
 .portlet a {
     color: #fff;
 }
@@ -51,4 +57,10 @@ input {
 
 input#searchGoButton {
     color: #ff3a19;
+}
+
+@media screen {
+    a.new {
+        color: #ff3a19;
+    }
 }
