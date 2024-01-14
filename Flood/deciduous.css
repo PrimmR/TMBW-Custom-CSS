@@ -117,13 +117,8 @@ pre,
 }
 
 /* Sidebar L */
-#lefttabs ul,
-#p-search #searchBody {
-    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) top left;
-}
-
-.ulfooter {
-    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) bottom left;
+#lefttabs ul, #p-search #searchBody {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) top left !important;
 }
 
 #lefttabs li a:hover {
