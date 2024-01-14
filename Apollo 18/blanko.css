@@ -1,0 +1,54 @@
+body {
+    background: #000 url(https://tmbw.net/wiki//skins/blanko/logo.gif?2015-05-25T14:45:00Z) 10px 10px no-repeat;
+    color: #fff;
+}
+
+a {
+    color: #eee;
+}
+
+a:visited {
+    color: #aaa;
+}
+
+hr {
+    color: #000;
+    background-color: #000;
+}
+
+.MainPageBG,
+.MainPageBG2,
+.MainPageBG3 {
+    color: #fff !important;
+}
+
+#p-cactions li a {
+    left: 210px;
+    color: #fff;
+}
+
+.portlet a {
+    color: #fff;
+}
+
+table {
+    background: transparent;
+}
+
+textarea,
+input {
+    background: #000;
+    color: #fff;
+}
+
+#p-personal li#pt-userpage a {
+    color: #fff;
+}
+
+.portlet h5 {
+    color: #ff3a19;
+}
+
+input#searchGoButton {
+    color: #ff3a19;
+}
