@@ -1,3 +1,4 @@
+/* All pages */
 body {
     background: #000 url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Logo.png) 10px 10px no-repeat;
     color: #fff;
@@ -17,16 +18,77 @@ a:visited {
     color: #aaa;
 }
 
-hr {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+hr,
+.MainPageBG hr,
+.MainPageBG2 hr,
+.MainPageBG3 hr {
     color: #000;
     background-color: #000;
 }
+
+table {
+    background: transparent;
+}
+
+table.rowcoloring tr:nth-child(even) {
+    background: #224173;
+}
+
+table.ebena tr:nth-child(even) {
+    background: #224173;
+}
+
+table#discog tr:nth-child(even) {
+    background: #224173;
+}
+
+.skin-azure table.rowcoloring tr:nth-child(even) {
+    background: #224173;
+}
+
+blockquote {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Quote.gif) no-repeat left top transparent;
+}
+
+/* Homepage */
 
 .MainPageBG,
 .MainPageBG2,
 .MainPageBG3 {
     color: #fff !important;
 }
+
+.MainPageBG2 h3 {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/RecentNews.png) no-repeat center left;
+}
+
+#h3-thisdayintmbg {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/TDITMBG.png) no-repeat center left;
+}
+
+.MainPageBG h3 {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/GettingStarted.png) no-repeat center left;
+}
+
+.MainPageBG3 h3 {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/SiteMap.png) no-repeat center center;
+}
+
+#footer #f-poweredbyico a {
+    width: 132px;
+    background: transparent no-repeat url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/MediaWiki.png);
+}
+
+/* Sidebars */
 
 #p-cactions {
     left: 210px;
@@ -35,10 +97,6 @@ hr {
 #p-cactions li a,
 .portlet a {
     color: #fff;
-}
-
-table {
-    background: transparent;
 }
 
 textarea,
@@ -63,4 +121,19 @@ input#searchGoButton {
     a.new {
         color: #ff3a19;
     }
+}
+
+/* Other */
+
+#catlinks a[title="Special:Categories"] {
+    background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Category.png) no-repeat;
+}
+
+#toc {
+    background-color: #224173 !important;
+    text-shadow: #922a86 0 0;
+}
+
+legend {
+    background: #000;
 }
