@@ -15,6 +15,12 @@ To use these themes, navigate to the appearance section of your user preferences
 **They Might Be Giants (Pink Album)**  
 `@import url(https://raw.githack.com/PrimmR/TMBW-Custom-CSS/main/They%20Might%20Be%20Giants/azure.css)`
 
+**Flood**  
+`@import url(https://raw.githack.com/PrimmR/TMBW-Custom-CSS/main/Flood/deciduous.css)`
+
+**Apollo 18**  
+`@import url(https://raw.githack.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/blanko.css)`
+
 This will also make sure any updates to this repo are automatically reflected on the site.
 
 
