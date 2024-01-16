@@ -117,14 +117,43 @@ input#searchGoButton {
     color: #ff3a19;
 }
 
-@media screen {
-    a.new {
-        color: #ff3a19;
-    }
+.suggestions-result {
+    background-color: #000;
+    color: #fff;
+}
+
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus {
+    background-color: #224173;
+    color: #fff;
+}
+
+.suggestions-special {
+    background-color: #000;
+    color: #fff;
+}
+
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus {
+    background-color: #224173;
+    color: #fff;
+}
+
+.suggestions-special .special-label {
+    color: #aaa;
+}
+
+.suggestions-special .special-query {
+    color: #fff;
+}
+
+.suggestions-result-current {
+    background-color: #224173;
 }
 
 /* Other */
-
 #catlinks a[title="Special:Categories"] {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Category.png) no-repeat;
 }
@@ -167,4 +196,10 @@ table#userboxes>tbody>tr:first-child a:visited {
 .mw-ui-button.mw-ui-progressive:hover,
 .mw-ui-button.mw-ui-primary:hover {
     border-bottom-color: #1a335a;
+}
+
+@media screen {
+    a.new {
+        color: #ff3a19;
+    }
 }
