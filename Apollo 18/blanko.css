@@ -137,3 +137,34 @@ input#searchGoButton {
 legend {
     background: #000;
 }
+
+table#userboxes {
+    color: #000;
+}
+
+table#userboxes a {
+    color: #111;
+}
+
+table#userboxes td a:visited {
+    color: #666;
+}
+
+table#userboxes>tbody>tr:first-child a {
+    color: #eee !important;
+}
+
+table#userboxes>tbody>tr:first-child a:visited {
+    color: #aaa !important;
+}
+
+.mw-ui-button.mw-ui-progressive,
+.mw-ui-button.mw-ui-primary {
+    background: #224173;
+    border: #224173;
+}
+
+.mw-ui-button.mw-ui-progressive:hover,
+.mw-ui-button.mw-ui-primary:hover {
+    border-bottom-color: #1a335a;
+}

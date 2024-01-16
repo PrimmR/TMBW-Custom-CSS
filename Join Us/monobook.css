@@ -13,6 +13,13 @@ body {
     background-size: contain;
 }
 
+@media screen {
+    .firstHeading {
+        font-weight: bold;
+        text-transform: lowercase;
+    }
+}
+
 /* Strikethrough */
 p::first-line {
     text-decoration: line-through;
@@ -51,6 +58,7 @@ div#homepage .bottomblock {
     background-color: #fff5e0;
 }
 
+pre,
 .centerblock {
     border: 1px solid #ffc6dc;
     background-color: #fff2fb;

@@ -12,6 +12,10 @@ pre {
     background: #fed03f !important;
 }
 
+div.thumb div {
+    background: #f2aa10;
+}
+
 /* Homepage */
 #p-cactions {
     background: #f8b713;
@@ -54,6 +58,20 @@ table#discog tr:nth-child(even) {
     background: #fed03f;
 }
 
-tr.header, td.diff-otitle, td.diff-ntitle {
+tr.header,
+td.diff-otitle,
+td.diff-ntitle {
     background: #f2aa10;
+}
+
+/* Other Pages */
+
+.lyrics-table {
+    background: #fed03f;
+}
+
+@media screen {
+    li.gallerybox div.thumb {
+        background-color: #f2aa10;
+    }
 }

@@ -39,6 +39,10 @@ a:visited,
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/Edit.gif) no-repeat top;
 }
 
+blockquote {
+    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/Quote.gif);
+}
+
 /* Personal tools */
 div#personaltools {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/PersonalTools.png) no-repeat left bottom;
@@ -118,8 +122,15 @@ pre,
 }
 
 /* Sidebar L */
-#lefttabs ul, #p-search #searchBody {
+#lefttabs ul,
+#p-search #searchBody {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) top left !important;
+}
+
+#lefttabs ul,
+#p-search #searchBody,
+.ulfooter {
+    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Flood/media/SidebarL.png) !important;
 }
 
 #lefttabs li a:hover {
@@ -158,9 +169,7 @@ pre,
     background-color: #fad001;
 }
 
-
 @media (max-width: 767px) {
-
     #p-cactions li.selected a,
     #p-cactions li a:hover {
         background-color: #cfdeb5 !important;

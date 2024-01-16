@@ -287,6 +287,11 @@ div#homepage span.tagline {
     border-radius: 8px
 }
 
+table#navstub,
+.centerblock {
+    background: #629a67;
+}
+
 /* Tables */
 table.rowcoloring tr:nth-child(even) {
     background: #629a67;
@@ -304,7 +309,8 @@ table#discog tr:nth-child(even) {
     background: #629a67;
 }
 
-.row1:nth-child(2n+1), .row2:nth-child(2n+1) {
+.row1:nth-child(2n+1),
+.row2:nth-child(2n+1) {
     background: #9adec5;
 }
 
