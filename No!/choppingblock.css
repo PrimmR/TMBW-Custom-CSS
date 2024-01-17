@@ -16,6 +16,14 @@ div.thumb div {
     background: #f2aa10;
 }
 
+code {
+    background-color: #f2aa10;
+}
+
+.hilighted {
+    background-color: #f2aa10;
+}
+
 /* Homepage */
 #p-cactions {
     background: #f8b713;

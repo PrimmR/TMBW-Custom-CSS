@@ -55,6 +55,19 @@ table#discog tr:nth-child(even) {
     background: #224173;
 }
 
+code {
+    background-color: #224173;
+}
+
+.hilighted {
+    background-color: #224173 !important;
+}
+
+select {
+    color: #fff;
+    background-color: #000;
+}
+
 blockquote {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Quote.gif) no-repeat left top transparent;
 }
@@ -153,7 +166,37 @@ input#searchGoButton {
     background-color: #224173;
 }
 
+/* Edit */
+
+.wikiEditor-ui-controls,
+.wikiEditor-ui-tabs div,
+.wikiEditor-ui,
+.wikiEditor-preview-contents {
+    background-color: #000;
+}
+
+.wikiEditor-ui-tabs div.current a {
+    background-color: #111;
+    color: #aaa;
+}
+
+.wikiEditor-ui-toolbar {
+    background-image: none;
+}
+
+.wikiEditor-ui-buttons {
+    background-color: #000;
+    border-top: none;
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited,
+.wikiEditor-ui-tabs div a {
+    color: #eee;
+}
+
 /* Other */
+
 #catlinks a[title="Special:Categories"] {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Category.png) no-repeat;
 }
@@ -161,6 +204,26 @@ input#searchGoButton {
 #toc {
     background-color: #224173 !important;
     text-shadow: #922a86 0 0;
+}
+
+#toc #toctitle h2 {
+    color: #fff;
+}
+
+#pagehistory li.selected {
+    background-color: #111;
+}
+
+fieldset {
+    border: 1px solid #224173;
+}
+
+table.diff {
+    color: #000;
+}
+
+table.diff a {
+    color: #111;
 }
 
 legend {
@@ -201,5 +264,9 @@ table#userboxes>tbody>tr:first-child a:visited {
 @media screen {
     a.new {
         color: #ff3a19;
+    }
+
+    li.gallerybox div.thumb {
+        background-color: #1a1819;
     }
 }

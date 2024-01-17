@@ -270,9 +270,11 @@ div#homepage .gettingstartedblock {
     border-radius: 8px;
 }
 
-div#homepage span.tagline {
+div#homepage span.tagline,
+.hilighted {
     background: #e5b6c3;
     color: #000;
+    text-shadow: none;
 }
 
 /* Other pages */

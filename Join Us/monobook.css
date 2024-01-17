@@ -13,6 +13,10 @@ body {
     background-size: contain;
 }
 
+.hilighted {
+    background-color: #ffbff4;
+}
+
 @media screen {
     .firstHeading {
         font-weight: bold;
@@ -88,4 +92,9 @@ table#discog tr:nth-child(even) {
 /* Lyrics */
 .lyrics-table {
     background-image: linear-gradient(90deg, #fff -10%, #fa96f0 150%);
+}
+
+/* Edit */
+.wikiEditor-ui-toolbar {
+    background-image: linear-gradient(#fff 25%, #efabe4);
 }
