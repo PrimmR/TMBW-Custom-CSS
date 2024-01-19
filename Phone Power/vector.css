@@ -10,9 +10,14 @@ body {
 }
 
 @media screen {
-    .mw-body .firstHeading {
-        font-family: monospace, sans-serif;
+    .mw-body h1,
+    .mw-body h2 {
         text-transform: uppercase;
+    }
+
+    .mw-body h1,
+    .mw-body h2 {
+        font-family: monospace, sans-serif;
     }
 }
 
