@@ -83,3 +83,19 @@ td.diff-ntitle {
         background-color: #f2aa10;
     }
 }
+
+/* Search */
+.suggestions-result,
+.suggestions-special {
+    background-color: #faeebd;
+}
+
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus,
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus,
+.suggestions-result-current {
+    background-color: #f2aa10;
+}

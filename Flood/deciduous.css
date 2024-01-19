@@ -176,3 +176,19 @@ pre,
         color: #3c502b !important;
     }
 }
+
+/* Search */
+.suggestions-result,
+.suggestions-special {
+    background-color: #cfdeb5;
+}
+
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus,
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus,
+.suggestions-result-current {
+    background-color: #3c502b;
+}

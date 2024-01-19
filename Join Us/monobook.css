@@ -98,3 +98,23 @@ table#discog tr:nth-child(even) {
 .wikiEditor-ui-toolbar {
     background-image: linear-gradient(#fff 25%, #efabe4);
 }
+
+/* Search */
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus,
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus,
+.suggestions-result-current {
+    background-color: #ffbff4;
+    color: #000;
+}
+
+.suggestions-special .special-label {
+    color: #666;
+}
+
+.suggestions-special .special-query {
+    color: #000;
+}

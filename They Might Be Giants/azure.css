@@ -327,3 +327,19 @@ table.ebena tr+tr,
 table.mw_metadata tr+tr {
     border-top: 1px solid #629a67;
 }
+
+/* Search */
+.suggestions-result,
+.suggestions-special {
+    background-color: #ffccd7;
+}
+
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus,
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus,
+.suggestions-result-current {
+    background-color: #994989;
+}
