@@ -16,7 +16,8 @@ body {
     }
 
     #ca-view,
-    ca-nstab-main {
+    #ca-nstab-main,
+    #ca-addsection {
         background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabB.png);
     }
 
@@ -30,7 +31,8 @@ body {
         background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabP.png);
     }
 
-    #ca-watch,#ca-unwatch {
+    #ca-watch,
+    #ca-unwatch {
         background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabO.png);
     }
 
