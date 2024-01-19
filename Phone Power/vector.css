@@ -1,0 +1,101 @@
+/* All pages */
+html,
+body {
+    font-family: monospace, sans-serif;
+}
+
+.mw-wiki-logo {
+    background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TMBW.png);
+    background-size: contain;
+}
+
+/* Homepage */
+@media screen {
+    div.vectorTabs li.selected {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADUlEQVQIHWNoYBgWEACJ5TIB0K9KcAAAAABJRU5ErkJggg==) !important;
+    }
+
+    #ca-view,
+    ca-nstab-main {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabB.png);
+    }
+
+    #ca-edit,
+    #ca-viewsource,
+    #ca-talk {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabG.png);
+    }
+
+    #ca-history {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabP.png);
+    }
+
+    #ca-watch,#ca-unwatch {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TabO.png);
+    }
+
+    div.vectorTabs ul li {
+        background-position: top left;
+    }
+
+    div.vectorTabs,
+    div#mw-head div.vectorMenu h3,
+    div.vectorTabs span {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/Divider.png);
+    }
+
+    #ca-watch.icon a {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/watch-icon.svg);
+    }
+
+    #ca-watch.icon a:hover {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/watch-icon-hl.svg);
+    }
+
+    #ca-unwatch.icon a {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/unwatch-icon.svg);
+    }
+
+    #ca-unwatch.icon a:hover {
+        background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/unwatch-icon-hl.svg);
+    }
+
+    .mw-body {
+        border: 1px solid #69ade1;
+    }
+}
+
+/* Tables */
+table.rowcoloring tr:nth-child(even) {
+    background: #69ade1;
+}
+
+table.ebena tr:nth-child(even) {
+    background: #69ade1;
+}
+
+table#discog tr:nth-child(even) {
+    background: #69ade1;
+}
+
+.skin-azure table.rowcoloring tr:nth-child(even) {
+    background: #69ade1;
+}
+
+.row1:nth-child(2n+1),
+.row2:nth-child(2n+1) {
+    background: #69ade1;
+}
+
+/* Search */
+.suggestions-result:hover,
+.suggestions-result:active,
+.suggestions-result:focus {
+    background-color: #ea8434;
+}
+
+.suggestions-special:hover,
+.suggestions-special:active,
+.suggestions-special:focus {
+    background-color: #ea8434;
+}
