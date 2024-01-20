@@ -4,12 +4,23 @@ body {
     font-family: monospace, sans-serif;
 }
 
+hr {
+    color: #ea8434;
+    background-color: #ea8434;
+}
+
+pre {
+    background: #fad2b2;
+    border: 1px solid #ea8434;
+}
+
 .mw-wiki-logo {
     background-image: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Phone%20Power/media/TMBW.png);
     background-size: contain;
 }
 
 @media screen {
+
     .mw-body h1,
     .mw-body h2 {
         text-transform: uppercase;
@@ -77,28 +88,45 @@ body {
     .mw-body {
         border: 1px solid #69ade1;
     }
+
+    #toc,
+    .toc,
+    .mw-warning,
+    .toccolours {
+        background-color: #fab2e2;
+        border: 1px solid #ca0088;
+    }
+
+    div.thumb div {
+        background-color: #dbfab2;
+        border: 1px solid #aaf644;
+    }
+
+    li.gallerybox div.thumb div {
+        background-color: transparent;
+        border: none;
+    }
+
+    li.gallerybox div.thumb,
+    code {
+        background-color: #fad2b2;
+        border: 1px solid #ea8434;
+    }
+
+    .catlinks {
+        background-color: #b2dbfa;
+        border: 1px solid #69ade1;
+    }
 }
 
 /* Tables */
-table.rowcoloring tr:nth-child(even) {
-    background: #69ade1;
-}
-
-table.ebena tr:nth-child(even) {
-    background: #69ade1;
-}
-
-table#discog tr:nth-child(even) {
-    background: #69ade1;
-}
-
-.skin-azure table.rowcoloring tr:nth-child(even) {
-    background: #69ade1;
-}
-
+table.rowcoloring tr:nth-child(even),
+table.ebena tr:nth-child(even),
+table#discog tr:nth-child(even),
+.skin-azure table.rowcoloring tr:nth-child(even),
 .row1:nth-child(2n+1),
 .row2:nth-child(2n+1) {
-    background: #69ade1;
+    background: #b2dbfa;
 }
 
 /* Search */
@@ -110,4 +138,21 @@ table#discog tr:nth-child(even) {
 .suggestions-special:focus,
 .suggestions-result-current {
     background-color: #ea8434;
+}
+
+/* Other Pages */
+#userboxes,
+.prettyblock {
+    border: 1px solid #69ade1 !important;
+    background: #aaf644;
+}
+
+.mw-ui-button.mw-ui-progressive,
+.mw-ui-button.mw-ui-primary {
+    background: #69ade1;
+    border: 1px solid #69ade1;
+}
+
+.lyrics-table {
+    border: 1px solid #ca0088;
 }
