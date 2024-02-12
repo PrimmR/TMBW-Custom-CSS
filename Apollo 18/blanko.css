@@ -72,6 +72,12 @@ blockquote {
     background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Apollo%2018/media/Quote.gif) no-repeat left top transparent;
 }
 
+pre {
+    color: #fff;
+    border: 1px dashed #224173;
+    background-color: #060606;
+}
+
 /* Homepage */
 
 .MainPageBG,
