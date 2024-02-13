@@ -173,6 +173,10 @@ input#searchGoButton {
     background-color: #224173;
 }
 
+.mw-search-profile-tabs {
+    background-color: transparent;
+}
+
 /* Edit */
 
 .wikiEditor-ui-controls,
