@@ -17,7 +17,7 @@ To use these themes, navigate to the appearance section of your user preferences
 **Flood - Deciduous**  
 `@import url(https://raw.githack.com/PrimmR/TMBW-Custom-CSS/main/Flood/deciduous.css)`
 
-**Join Us - MonoBook**  
+**Join Us (& ARNATQ) - MonoBook**  
 `@import url(https://raw.githack.com/PrimmR/TMBW-Custom-CSS/main/Join%20Us/monobook.css)`
 
 **Phone Power - Vector**  

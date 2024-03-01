@@ -51,8 +51,9 @@ div#footer {
         color: #c08dd9;
     }
 
-    .mw-body a.external, .link-https {
-background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Join%20Us/media/external.png) center right no-repeat;
+    .mw-body a.external,
+    .link-https {
+        background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Join%20Us/media/external.png) center right no-repeat;
     }
 
     .firstHeading {
