@@ -17,7 +17,44 @@ body {
     background-color: #ffbff4;
 }
 
+a.new,
+#p-personal a.new {
+    color: #f04031;
+}
+
+a.new:visited,
+#p-personal a.new:visited {
+    color: #cc6e66;
+}
+
+div#footer {
+    background-color: #def5ff;
+    border-top: 1px solid #0094da;
+    border-bottom: 1px solid #0094da;
+    opacity: 1;
+}
+
 @media screen {
+    a {
+        color: #cc5cc1;
+    }
+
+    a:visited {
+        color: #a85ccc;
+    }
+
+    .mw-body a.external {
+        color: #d982d0;
+    }
+
+    .mw-body a.external:visited {
+        color: #c08dd9;
+    }
+
+    .mw-body a.external, .link-https {
+background: url(https://raw.githubusercontent.com/PrimmR/TMBW-Custom-CSS/main/Join%20Us/media/external.png) center right no-repeat;
+    }
+
     .firstHeading {
         font-weight: bold;
         text-transform: lowercase;
@@ -31,25 +68,31 @@ p::first-line {
 
 /* Homepage */
 div#homepage .firstblock {
-    background-color: #fff2fb;
+    background-color: #f4e3ea;
+    border: 1px solid #f49ac0;
 }
 
 div#homepage .secondblock {
-    background-color: #fff9fd;
+    background-color: #f0c4c0;
+    border: 1px solid #f04031;
 }
 
 div#homepage .recentnewsblock {
-    background-color: #fff2fb;
+    background-color: #fdebc8;
     background-blend-mode: luminosity;
+    border: 1px solid #fdaf17;
 }
 
 div#homepage .gettingstartedblock {
-    background-color: #fde9f8;
+    background-color: #fefacb;
+    border: 1px solid #fee800;
+
 }
 
 div#homepage .bottomblock {
-    background-color: #fde8f7;
+    background-color: #c7ceb5;
     background-blend-mode: luminosity;
+    border: 1px solid #a6ce39;
 }
 
 .otherlinksbox {
@@ -58,8 +101,8 @@ div#homepage .bottomblock {
 }
 
 .ratingbox {
-    border: 1px solid #ffc6dc;
-    background-color: #efabe4;
+    background-color: #fdebc8;
+    border: 1px solid #fdaf17;
 }
 
 pre,

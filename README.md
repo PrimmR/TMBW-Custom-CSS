@@ -47,7 +47,7 @@ Here's a few examples of what the themes look like.
 ![Flood Themed Main Page](/gallery/FloodMain.png)
 ![Flood Themed 2082 Page](/gallery/FloodSong.png)
 
-### Join Us
+### Join Us (& ARNATQ)
 ![Join Us Themed Main Page](/gallery/JoinUsMain.png)
 ![Join Us Themed 2082 Page](/gallery/JoinUsSong.png)
 
